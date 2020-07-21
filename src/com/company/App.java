@@ -16,7 +16,7 @@ public class App extends JFrame {
     private JButton convertirButton;
     private JTextField textField2;
     private JButton button1;
-
+     private int Formula = 0;
     ArrayList<Category> categorises = new ArrayList<>();
 
 
@@ -65,7 +65,16 @@ public class App extends JFrame {
         convertirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if ( comboBox1.getSelectedItem() == ;)
+
+            }
+
+
+
+            private void IniciarBoton (ActionEvent e) {
+                JButton convert = (JButton) e.getSource();
+                String operando = convert.getText();
+                if((Formula.
+                }
             }
         });
     }
